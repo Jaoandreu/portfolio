@@ -1,0 +1,14 @@
+.Description {
+    background-color: #ca269300;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    text-align: none;
+    flex-direction: column;
+    line-height: 1.4;
+    width: 100%;
+    min-width: 320px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+  }

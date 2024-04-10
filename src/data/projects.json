@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Filterly",
+      "descriptionBold": "Filterly: A fast and reliable tool to assess if your candidates meet your job requirements.",
+      "description": "Key features delivered:\n- Tests Customization\n- Automate Correction\n- Timer option\n- Graphics Comparison\n- Subscription plans",
+      "image": "Portfolio - Filterly.png",
+      "url": "https://nocodescore.bubbleapps.io/version-test"
+    },
+    {
+      "id": 2,
+      "title": "Boatings",
+      "descriptionBold": "Boatings: For sailors to locate and access detailed information about harbors.",
+      "description": "Key features delivered:\n- 2FA Authentication via Twilio Verify API\n-  Download GPX files\n-  AWS Cloud DB\n-  Google & FB Auth\n-  UX/UI design and responsiveness",
+      "image": "Portfolio - Boatings.png",
+      "url": "https://boatings.se"
+    },
+    {
+      "id": 3,
+      "title": "WeScope",
+      "descriptionBold": "WeScope",
+      "description": "Key features delivered:\n- feature1\n-  feature2",
+      "image": "Portfolio - WeScope.png",
+      "url": "https://www.wescope.com"
+    },
+    {
+      "id": 4,
+      "title": "Bici Adventure",
+      "descriptionBold": "Bici Adventure: A marketplace that connects bike owners with adventure seekers.",
+      "description": "Key features delivered:\n-  Booking management system\n-  Advanced filtering\n-  Chat box\n-  Reviewing feedback\n-  Phone verification via Twilio services",
+      "image": "Portfolio - BiciAdventure.png",
+      "url": "https://freealkibc.bubbleapps.io/version-test"
+    },
+    {
+      "id": 5,
+      "title": "Body Wisdom School",
+      "descriptionBold": "Body Wisdom School: Massage school administrative app",
+      "description": "Key features delivered:\n- Students Enrollement\n-   Student Assesment System\n-  PDF Files Generation\n-  UX/UI design and responsiveness\n-   App store and Google Play",
+      "image": "OM.png",
+      "url": "https://bodywisdomschool.com/"
+    },
+    {
+      "id": 6,
+      "title": "byDesign",
+      "descriptionBold": "byDesign: On-demand Marketing Customer Relationship Management (CRM)",
+      "description": "Key features delivered:\n- Recurring requests\n-  Duplicating requests\n-  Email, SMS & Slack API automation\n-  Internal chat box\n-  Fully responsive Design",
+      "image": "Portfolio - byDesign.png",
+      "url": "https://www.getbydesign.com"
+    }
+  ]
+}

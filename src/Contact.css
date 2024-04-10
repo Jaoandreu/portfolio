@@ -1,0 +1,228 @@
+   .wrapper {
+     background: #FEA789;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     border-top-color: #1a40e800;
+     width: 100%;
+     margin-top: 0px;
+   }
+
+   .container-footer {
+     display: flex;
+     background: #892a0d00;
+     justify-content: space-around;
+     align-items: center;
+     width: 80%;
+     min-width: 300px;
+     flex-wrap: wrap;
+   }
+
+   form {
+    /* Combine shared styles to avoid repetition */
+    background: #0f1d9900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+   .right {
+     /* Combine shared styles to avoid repetition */
+     background: #0f1d9900;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+     padding: 20px;
+     border-radius: 8px;
+     width: 40%;
+     margin-top: 30px;
+     margin-bottom: 20px;
+   }
+
+   @media (max-width: 699px) {
+     .container-footer {
+       flex-direction: column-reverse;
+       /* Stacks children vertically, form on top */
+       align-items: flex-end;
+       /* Aligns children to the right */
+     }
+
+     form {
+       width: 100%;
+       margin-top: 0px;
+       margin-bottom: 20px;
+     }
+
+     .right {
+       width: 100%;
+       margin-top: -30px;
+       margin-bottom: -90px;
+     }
+
+   }
+
+   .footer-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 100px;
+     color: white;
+     cursor: pointer;
+     align-items: center;
+     border-style: solid;
+     border-left: #ffffff;
+     border-right: #fefeff;
+     border-bottom: #ffffff;
+     border-width: 2px;
+     padding-top: 30px;
+     padding-bottom: 20px;
+     background-color: #c0989800;
+     width: 100%;
+     margin-top: 20px;
+     margin-bottom: 0px;
+   }
+
+   .footer-container button {
+     letter-spacing: 1px;
+     margin-bottom: 10px;
+     padding: 10px;
+     font-size: 20px;
+     font-weight: 400;
+     text-decoration: underline;
+     background-color: #55555500;
+     color: white;
+     border: none;
+     cursor: pointer;
+   }
+
+
+   .footer-container button:hover {
+
+     text-decoration: none;
+   }
+
+   .reach-out {
+     color: #ffffff;
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     width: 91%;
+     margin-bottom: 20px;
+     font-weight: 400;
+     font-size: 45px;
+   }
+
+   .form-group {
+     margin-bottom: 20px;
+     background: #2bb41e00;
+     width: 90%;
+   }
+
+   .form-group label {
+     display: block;
+     margin-bottom: 10px;
+   }
+
+   .form-group input[type="text"] {
+     width: 100%;
+     padding: 10px;
+     height: 45px;
+     border: 2px solid #ccc;
+     font-family: Arial, sans-serif;
+     border-radius: 6px;
+     border-width: 1px;
+   }
+
+   .form-group input[type="email"] {
+     width: 100%;
+     padding: 15px;
+     font-size: 20px;
+     font-family: Arial, sans-serif;
+     color: #ffffff;
+     height: 55px;
+     border: 2px solid #ffffff;
+     background-color: rgba(40, 40, 40, 0.148);
+     border-radius: 6px;
+   }
+
+   .form-group input[type="email"]:focus {
+     border-color: #00d9ff;
+     border-width: 2px;
+     outline: none;
+   }
+
+   .form-group input[type="email"]::placeholder {
+     color: #ffffff;
+   }
+
+   .form-group textarea {
+     width: 100%;
+     padding: 15px;
+     border: 2px solid #ffffff;
+     color: #ffffff;
+     background-color: rgba(40, 40, 40, 0.148);
+     font-size: 20px;
+     font-family: Arial, sans-serif;
+     border-radius: 6px;
+     box-sizing: border-box;
+     /* Makes sure padding doesn't affect the total width */
+   }
+
+   .form-group textarea::placeholder {
+     color: #ffffff;
+     /* Sets the placeholder text color to white */
+   }
+
+   .form-group textarea:focus {
+     border-color: #00d9ff;
+     border-width: 2px;
+     outline: none;
+   }
+
+   button[type="submit"] {
+     display: inline-block;
+     font-size: 22px;
+     font-weight: 500;
+     font-family: Arial, sans-serif;
+     margin-top: 10px;
+     width: 90%;
+     color: #232323;
+     height: 55px;
+     background-color: #ffffff;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     line-height: 52px;
+   }
+
+   .submitting {
+     background-color: #00d9ff;
+   }
+
+   button[type="submit"]:not(:disabled):hover {
+    background: #00d9ff;
+    cursor: pointer;
+    color: #1f1f1f;
+  }
+
+  button[type="submit"]:hover {
+    cursor: default;
+  }
+
+   .footer-center {
+    background-color: #ffffff00;
+     text-align: center;
+     color: #ffffff;
+     font-weight: 500;
+     margin-bottom: 5px;
+   }
