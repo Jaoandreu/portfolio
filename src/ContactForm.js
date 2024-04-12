@@ -4,16 +4,10 @@ import './Contact.css';
 const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubmit = event => {
-    event.preventDefault();
-    setIsSubmitting(true);
-
-  };
+  // Removed the isSubmitting state since we're not handling onSubmit
 
   return (
-    <form name="contact" method="POST" id="contactForm" onSubmit={handleSubmit} data-netlify="true">
+    <form name="contact" method="POST" id="contactForm" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <div className="reach-out">Got a problem to solve?</div>
       <div className="form-group">
@@ -30,7 +24,6 @@ const ContactForm = () => {
       <div className="form-group">
         <textarea
           id="message"
-          type="text"
           name="message"
           rows="10"
           required
@@ -39,11 +32,12 @@ const ContactForm = () => {
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
       </div>
-      <button className={`submit-btn ${isSubmitting ? 'submitting' : ''}`} type="submit" disabled={isSubmitting}>
-        {isSubmitting ? 'Thank you, we will be in touch soon!' : 'Send'}
+      <button type="submit">
+        Send
       </button>
     </form>
   );
 };
 
 export default ContactForm;
+
