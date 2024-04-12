@@ -31,7 +31,8 @@ const ContactForm = () => {
       <div className="form-group">
         <textarea
           id="message"
-          name="message"
+          type="text"
+          name="name"
           rows="10"
           required
           placeholder="Message"
