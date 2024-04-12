@@ -4,6 +4,7 @@ import './Contact.css';
 const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = event => {
     setIsSubmitting(true);
