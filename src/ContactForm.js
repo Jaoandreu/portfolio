@@ -9,25 +9,8 @@ const ContactForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setIsSubmitting(true);
-    const data = { email, message };
     setEmail('');
     setMessage('');
-
-    // Replace YOUR_BACKEND_ENDPOINT with the actual endpoint
-    fetch('http://localhost:3001/send', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log('Success:', data);
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
   };
 
   return (
