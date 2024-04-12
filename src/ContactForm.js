@@ -14,7 +14,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form name="contact" id="contactForm" onSubmit={handleSubmit} data-netlify="true">
+    <form name="contact" method="POST" id="contactForm" onSubmit={handleSubmit} data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <div className="reach-out">Got a problem to solve?</div>
       <div className="form-group">
