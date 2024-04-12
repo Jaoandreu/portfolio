@@ -4,13 +4,10 @@ import './Contact.css';
 const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = event => {
     setIsSubmitting(true);
-    setEmail('');
-    setMessage('');
+
   };
 
   return (
@@ -32,7 +29,7 @@ const ContactForm = () => {
         <textarea
           id="message"
           type="text"
-          name="name"
+          name="message"
           rows="10"
           required
           placeholder="Message"
