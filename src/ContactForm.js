@@ -7,6 +7,7 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = event => {
+    event.preventDefault();
     setIsSubmitting(true);
 
   };
