@@ -3,8 +3,8 @@ import './Contact.css';
 
 const ContactForm = () => {
   return (
-    <form id="contactForm" method="Post" data-netlify="true" name="newcontact">
-      <input type="hidden" name="form-name" value="newcontact" />
+    <form id="contactForm" method="Post" data-netlify="true" name="contact">
+      <input type="hidden" name="form-name" value="contact" />
       <div className="reach-out">Got a problem to solve?</div>
       <div className="form-group">
         <input
