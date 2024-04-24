@@ -4,7 +4,7 @@ import './Contact.css';
 const ContactForm = () => {
   return (
     <form id="contactForm" method="Post" data-netlify="true" name="newcontact">
-      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="form-name" value="newcontact" />
       <div className="reach-out">Got a problem to solve?</div>
       <div className="form-group">
         <input
