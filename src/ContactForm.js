@@ -1,18 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Contact.css';
 
 const ContactForm = () => {
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    setEmail('');
+    setMessage('');
+  }
+
   return (
-    <form name="contact" data-netlify="true" method="post">
+    <form id="contactForm" onSubmit={handleSubmit} data-netlify="true" name="contact">
       <input type="hidden" name="form-name" value="contact" />
-      <p>
-        <label>Name <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Email <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
+      <div className="reach-out">Got a problem to solve?</div>
+      <div className="form-group">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </div>
+      <div className="form-group">
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          required
+          placeholder="Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        ></textarea>
+      </div>
+      <button className={`submit-btn ${isSubmitting ? 'submitting' : ''}`} type="submit" disabled={isSubmitting}>
+        {isSubmitting ? 'Thank you, we will be in touch soon!' : 'Send'}
+      </button>
     </form>
   );
 };
