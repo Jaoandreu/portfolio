@@ -24,6 +24,12 @@
   border-width: 2px;
 }
 
+@media (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns when below 1024px */
+  }
+}
+
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .projects-container {
     grid-template-columns: 1fr; /* Switches to a single column on small screens */
