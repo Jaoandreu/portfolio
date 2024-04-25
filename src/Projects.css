@@ -1,6 +1,6 @@
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Creates 2 columns of equal width */
+  grid-template-columns: repeat(3, 1fr); /* Creates 2 columns of equal width */
   gap: 20px; /* Adjust the gap between projects as needed */
   width: 80%;
   justify-content: center;
