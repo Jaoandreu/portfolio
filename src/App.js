@@ -48,7 +48,7 @@ function App() {
       <Clients />
       <div className="wrapper">
         <div className="container-footer">
-          <form name="contact" id="contactForm" method="Post" data-netlify="true">
+          <form style={{ minWidth: "320px" }} name="contact" id="contactForm" method="Post" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div className="reach-out">Got a problem to solve?</div>
             <div className="form-group">

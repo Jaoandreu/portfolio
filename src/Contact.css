@@ -9,29 +9,39 @@
      margin-top: 0px;
    }
 
+   @media (max-width: 799px) {
+     .container-footer {
+       margin-left: 10px;
+       margin-right: 10px;
+     }
+   }
+
    .container-footer {
      display: flex;
      background: #892a0d00;
      justify-content: space-around;
      align-items: center;
      width: 80%;
+     margin-left: 40px;
+     margin-right: 40px;
+     max-width: 1300px;
      min-width: 300px;
      flex-wrap: wrap;
    }
 
    form {
-    /* Combine shared styles to avoid repetition */
-    background: #0f1d9900;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    width: 40%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
+     /* Combine shared styles to avoid repetition */
+     background: #0f1d9900;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+     padding: 20px;
+     border-radius: 8px;
+     width: 50%;
+     margin-top: 30px;
+     margin-bottom: 20px;
+   }
 
    .right {
      /* Combine shared styles to avoid repetition */
@@ -42,7 +52,7 @@
      margin-top: 20px;
      padding: 20px;
      border-radius: 8px;
-     width: 40%;
+     width: 45%;
      margin-top: 30px;
      margin-bottom: 20px;
    }
@@ -66,8 +76,8 @@
        margin-top: -30px;
        margin-bottom: -90px;
      }
-
    }
+
 
    .footer-container {
      display: flex;
@@ -81,7 +91,7 @@
      border-left: #ffffff;
      border-right: #fefeff;
      border-bottom: #ffffff;
-     border-width: 2px;
+     border-width: 1px;
      padding-top: 30px;
      padding-bottom: 20px;
      background-color: #c0989800;
@@ -90,11 +100,17 @@
      margin-bottom: 0px;
    }
 
+   @media (max-width: 499px) {
+    .footer-container {
+     gap: 40px;
+   }
+ }
+
    .footer-container button {
      letter-spacing: 1px;
      margin-bottom: 10px;
      padding: 10px;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 400;
      text-decoration: underline;
      background-color: #55555500;
@@ -117,7 +133,7 @@
      width: 91%;
      margin-bottom: 20px;
      font-weight: 400;
-     font-size: 45px;
+     font-size: 35px;
    }
 
    .form-group {
@@ -144,7 +160,7 @@
    .form-group input[type="email"] {
      width: 100%;
      padding: 15px;
-     font-size: 20px;
+     font-size: 18px;
      font-family: Arial, sans-serif;
      color: #ffffff;
      height: 55px;
@@ -169,7 +185,7 @@
      border: 2px solid #ffffff;
      color: #ffffff;
      background-color: rgba(40, 40, 40, 0.148);
-     font-size: 20px;
+     font-size: 18px;
      font-family: Arial, sans-serif;
      border-radius: 6px;
      box-sizing: border-box;
@@ -189,13 +205,13 @@
 
    button[type="submit"] {
      display: inline-block;
-     font-size: 22px;
+     font-size: 19px;
      font-weight: 500;
      font-family: Arial, sans-serif;
-     margin-top: 10px;
+     margin-top: 5px;
      width: 90%;
-     color: #232323;
-     height: 55px;
+     color: hsl(0, 0%, 14%);
+     height: 50px;
      background-color: #ffffff;
      text-align: center;
      text-decoration: none;
@@ -210,19 +226,20 @@
    }
 
    button[type="submit"]:not(:disabled):hover {
-    background: #00d9ff;
-    cursor: pointer;
-    color: #1f1f1f;
-  }
+     background: #00d9ff;
+     cursor: pointer;
+     color: #1f1f1f;
+   }
 
-  button[type="submit"]:hover {
-    cursor: default;
-  }
+   button[type="submit"]:hover {
+     cursor: default;
+   }
 
    .footer-center {
-    background-color: #ffffff00;
+     background-color: #ffffff00;
      text-align: center;
      color: #ffffff;
      font-weight: 500;
+     font-size: 14px;
      margin-bottom: 5px;
    }
