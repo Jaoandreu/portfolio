@@ -31,7 +31,7 @@ function App() {
         </div>
       </div>
       <Contribution />
-      <div id="portfolio" className="welcome-message" style={{ width: "80%", marginTop: "80px" }}>More About My Projects</div>
+      <div id="portfolio" className="welcome-message" style={{ width: "80%", marginTop: "40px" }}>More About My Projects</div>
       <div className="projects-container">
         {projects.map((project) => (
           <Projects
