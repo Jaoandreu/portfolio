@@ -61,7 +61,7 @@
   }
   
   .marquee {
-    animation: scroll 100s linear infinite;
+    animation: scroll 80s linear infinite;
     display: flex;
     align-items: center;
     width: auto;
@@ -79,5 +79,5 @@
     margin-top: 40px;
     margin-bottom: 40px;
     width: auto;
-    animation: scroll2 200s linear infinite;
+    animation: scroll2 100s linear infinite;
   }
