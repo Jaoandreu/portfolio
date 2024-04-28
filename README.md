@@ -1,5 +1,10 @@
  HEAD
 # portfolio
+Welcome to the repository for my portfolio web application, built with React. This project showcases my skills and projects as a software developer.
+
+## Live Website
+
+Experience the live version of my portfolio here: [Visit My Portfolio](https://no-code-jao.com/)
 
 ## Available Scripts
 
