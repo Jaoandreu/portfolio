@@ -3,16 +3,16 @@
     {
       "id": 1,
       "title": "Filterly",
-      "descriptionBold": "Filterly: A fast and reliable tool to assess if your candidates meet your job requirements.",
-      "description": "Key features delivered:\n- Tests Customization\n- Automate Correction\n- Timer option\n- Graphics Comparison\n- Subscription plans",
+      "descriptionBold": "Filterly: A fast and reliable tool to assess your candidates.",
+      "description": "Key features delivered:\n- Test customization\n- Automate correction\n- Timer option\n- Graphics comparison\n- Subscription plans",
       "image": "Portfolio - Filterly.png",
       "url": "https://nocodescore.bubbleapps.io/version-test"
     },
     {
       "id": 2,
       "title": "Boatings",
-      "descriptionBold": "Boatings: For sailors to locate and access detailed information about harbors.",
-      "description": "Key features delivered:\n- 2FA Authentication via Twilio Verify API\n-  Download GPX files\n-  AWS Cloud DB\n-  Google & FB Auth\n-  UX/UI design and responsiveness",
+      "descriptionBold": "Boatings: For sailors to locate and access information about harbors.",
+      "description": "Key features delivered:\n- 2FA authentication via Twilio Verify API\n-  Download GPX files\n-  AWS Cloud DB\n-  Google & FB Auth\n-  UX/UI design and responsiveness",
       "image": "Portfolio - Boatings.png",
       "url": "https://boatings.se"
     },
@@ -36,15 +36,15 @@
       "id": 5,
       "title": "Body Wisdom School",
       "descriptionBold": "Body Wisdom School: Massage school administrative app",
-      "description": "Key features delivered:\n- Students Enrollement\n-   Student Assesment System\n-  PDF Files Generation\n-  UX/UI design and responsiveness\n-   App store and Google Play",
+      "description": "Key features delivered:\n- Student enrollement\n-   Student assesment system\n-  PDF file generation\n-  UX/UI design and responsiveness\n-   App store and Google Play",
       "image": "OM.png",
       "url": "https://bodywisdomschool.com/"
     },
     {
       "id": 6,
       "title": "byDesign",
-      "descriptionBold": "byDesign: On-demand Marketing Customer Relationship Management (CRM)",
-      "description": "Key features delivered:\n- Recurring requests\n-  Duplicating requests\n-  Email, SMS & Slack API automation\n-  Internal chat box\n-  Fully responsive Design",
+      "descriptionBold": "byDesign: On-demand marketing customer relationship management (CRM)",
+      "description": "Key features delivered:\n- Recurring requests\n-  Duplicating requests\n-  Email, SMS & Slack API automation\n-  Internal chat box\n-  Fully responsive design",
       "image": "Portfolio - byDesign.png",
       "url": "https://www.getbydesign.com"
     }

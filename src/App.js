@@ -22,16 +22,16 @@ function App() {
       <Navbar />
       <div className="container">
         <div className="text-content">
-          <div id="home" className="welcome-message" style={{ textAlign: 'left' }}>No-Code/Low Code Studio</div>
+          <div id="home" className="welcome-message" style={{ textAlign: 'left' }}>Quick Dev Studio</div>
           <Description />
-          <button onClick={() => document.getElementById('portfolio').scrollIntoView()}>Discover More</button>
+          <button onClick={() => document.getElementById('contactForm').scrollIntoView()}>Contact Me</button>
         </div>
         <div className="image-container">
           <img src="logo7.png" alt="Logo" style={{ width: "70%", height: 'auto', borderRadius: "0px" }} />
         </div>
       </div>
       <Contribution />
-      <div id="portfolio" className="welcome-message" style={{ width: "80%", marginTop: "40px" }}>More About My Projects</div>
+      <div id="portfolio" className="welcome-message" style={{ width: "80%", marginTop: "40px" }}>My Projects</div>
       <div className="projects-container">
         {projects.map((project) => (
           <Projects
@@ -57,7 +57,7 @@ function App() {
             <div className="form-group">
               <textarea id="message" name="message" rows="10" required placeholder="Message"></textarea>
             </div>
-            <button className="submit-btn" type="submit">Send</button>
+            <button className="submit-btn" type="submit">Let's Solve It</button>
           </form>
           <div className="right">
             <Footer />
