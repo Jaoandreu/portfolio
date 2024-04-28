@@ -18,7 +18,8 @@ const Contribution = () => {
     "Git Deployment Proficiency",
     "Advanced Search and Filtering",
     "Internal Communication Tools",
-    "Email and Phone Verification Automation",
+    "JS - CSS - HTML - React",
+    "Email & Phone Verification Automation",
     "Two-Factor Authentication (2FA)",
     "File Migration AWS S3/Google Cloud",
   ];
