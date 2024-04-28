@@ -6,7 +6,7 @@ const Contribution = () => {
   const contributions = [
     "Bubble to Xano Migration",
     "OpenAI API Integration",
-    "App Store and Google Play",
+    "App Store and Google Play Deployment",
     "Business Analytics",
     "Scalable SaaS Architecture",
     "Complex business logic",
@@ -15,7 +15,7 @@ const Contribution = () => {
   const allContributions = [...contributions, ...contributions];
 
   const contributions2 = [
-    "Automated Data Security",
+    "Git Deployment Proficiency",
     "Advanced Search and Filtering",
     "Internal Communication Tools",
     "Email and Phone Verification Automation",
@@ -27,7 +27,7 @@ const Contribution = () => {
   const contributions3 = [
     "Social Media Authentication",
     "Responsive UX/UI Design",
-    "Automated Email, SMS, and Slack Interactions",
+    "Automated Email, SMS, and Slack Workflows",
     "Calendar-Based Booking Systems",
     "Auth Token Management",
     "Xano Realtime Data"

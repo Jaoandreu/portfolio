@@ -44,7 +44,7 @@ function App() {
           />
         ))}
       </div>
-      <div id="client" className="welcome-message" style={{ width: "80%", marginTop: "80px", marginBottom: "20px" }}>Trusted by the kindest clients</div>
+      <div id="client" className="welcome-message" style={{ width: "80%", marginTop: "80px", marginBottom: "20px" }}>Trusted by</div>
       <Clients />
       <div className="wrapper">
         <div className="container-footer">
