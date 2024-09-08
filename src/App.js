@@ -46,7 +46,7 @@ function App() {
       </div>
       <div id="client" className="welcome-message" style={{ width: "80%", marginTop: "80px", marginBottom: "20px" }}>Trusted by</div>
       <Clients /> 
-      
+      <Footer />
     </div>
   );
 }
