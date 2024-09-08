@@ -24,6 +24,7 @@ root.render(
           <div className="right">
           </div>
           </div>
+          
           </div>
   </React.StrictMode>
 );
