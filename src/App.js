@@ -22,7 +22,7 @@ function App() {
       <Navbar />
       <div className="container">
         <div className="text-content">
-          <div id="home" className="welcome-message" style={{ textAlign: 'left' }}>Quick Dev Studio</div>
+          <div id="home" className="welcome-message" style={{ textAlign: 'left' }}>A solution-oriented studio</div>
           <Description />
           <button onClick={() => document.getElementById('contactForm').scrollIntoView()}>Contact Me</button>
         </div>

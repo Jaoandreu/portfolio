@@ -3,7 +3,7 @@ import './Description.css';
 
 const Description = () => {
     // Assuming your description is a constant string as mentioned
-  const partOne = "My name is Jao, a web application developer specialized in rapidly developing custom solutions using Bubble and Xano platforms.";
+  const partOne = "My name is Jao, a web application developer specialized in developing custom solutions using low-code and no-code platforms like Bubble, Xano...";
   const partTwo = "My portfolio includes a variety of projects, from marketplaces to SaaS platforms, where I integrate Figma-designed UI/UX, connect APIs & Plugins, and engineer complex workflows.";
   const partThree = "My expertise extends to database architecture, enriched with custom coding in JavaScript, CSS,  HTML and React."
     return (
