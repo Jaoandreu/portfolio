@@ -46,7 +46,32 @@ function App() {
       </div>
       <div id="client" className="welcome-message" style={{ width: "80%", marginTop: "80px", marginBottom: "20px" }}>Trusted by</div>
       <Clients /> 
-      <Footer />
+      <div className="wrapper">
+        <div className="container-footer">
+          <form style={{ minWidth: "320px" }} name="contact" id="contactForm" method="Post" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <div className="reach-out">Got a problem to solve?</div>
+            <div className="form-group">
+              <input type="email" id="email" name="email" required placeholder="Email" />
+            </div>
+            <div className="form-group">
+              <textarea id="message" name="message" rows="10" required placeholder="Message"></textarea>
+            </div>
+            <button className="submit-btn" type="submit">Let's Solve It</button>
+          </form>
+          <div className="right">
+            <Footer />
+          </div>
+        </div>
+        <div className="footer-container">
+          <button onClick={() => document.getElementById('home').scrollIntoView()}>Home</button>
+          <button onClick={() => document.getElementById('portfolio').scrollIntoView()}>Portfolio</button>
+          <button onClick={() => document.getElementById('contactForm').scrollIntoView()}>Contact</button>
+        </div>
+        <div className="footer-center">
+          © 2024 - All rights reserved.
+        </div>
+      </div>
     </div>
   );
 }
