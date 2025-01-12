@@ -4,7 +4,7 @@ Welcome to the repository for my portfolio web application, built with React. Th
 
 ## Live Website
 
-Experience the live version of my portfolio here: [Visit My Portfolio](https://no-code-jao.com/)
+Experience the live version of my portfolio here: [Visit My Portfolio](https://websolutions-consultant.com)
 
 ## Available Scripts
 
